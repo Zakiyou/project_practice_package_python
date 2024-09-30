@@ -1,0 +1,38 @@
+Description du Programme
+
+Ce petit script  a pour objectif de récupérer et d'afficher des informations détaillées sur votre ordinateur, telles que :
+
+    Informations sur le système d'exploitation : Type de système, nom de l'ordinateur, version, architecture, etc.
+    Informations sur le processeur : Nom du processeur, fréquence actuelle, nombre de cœurs physiques et logiques, utilisation du CPU par cœur et globale.
+    Informations sur la mémoire RAM : Mémoire totale, disponible, utilisée et le pourcentage utilisé.
+    Informations sur la mémoire Swap : Taille totale, utilisée, libre et le pourcentage utilisé.
+    Informations sur les disques : Points de montage, système de fichiers, taille totale, utilisé, libre et le pourcentage utilisé pour chaque partition de disque.
+    Informations sur la batterie : Pourcentage de charge, statut de recharge, temps restant.
+    Informations sur le réseau : Bytes envoyés et reçus.
+
+
+Packages nécessaires
+
+Pour exécuter ce programme, vous aurez besoin des packages Python suivants :
+
+    psutil : Bibliothèque pour récupérer des informations sur les processus en cours, l'utilisation de la mémoire, l'utilisation du CPU, etc.
+    platform : Bibliothèque intégrée à Python pour obtenir des informations sur le système d'exploitation et le matériel.
+    datetime : Bibliothèque intégrée à Python pour manipuler les dates et heures.
+
+Liste des packages
+
+    psutil
+    platform (inclus avec Python)
+    datetime (inclus avec Python)
+
+Instructions d'installation
+1. Installer python
+
+Assurez-vous que python est installé sur votre ordinateur. Vous pouvez télécharger la dernière version de python depuis le site officiel.
+2. Installer psutil
+
+Le seul package externe nécessaire est psutil. Vous pouvez l'installer via pip.
+
+Ouvrez votre terminal ou l'invite de commandes et exécutez :
+
+pip install psutil
